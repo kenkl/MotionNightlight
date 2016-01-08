@@ -12,6 +12,9 @@ Inspired by [this thread](https://www.reddit.com/r/arduino/comments/3znyer/bathr
 
 * Ambient light sensor. Why switch on the LEDs if the room is already lit?
 * Red laser illuminating the toilet bowl. Target acquired!
+* Instead of ATmega328, this *should* be possible to construct using an ATtiny85 with minimal code changes.
 
 ======
+
+As discussed in the [reddit thread](https://www.reddit.com/r/arduino/comments/3znyer/bathroom_laser_light_when_turning_the_light_on_is/), it *is* possible to build a device like this with discreet components if one is so inclined. One of the posts details using a diode, a capacitor, and a high-ohm resistor/potentiometer to do this. If one is so inclined.
 
