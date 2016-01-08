@@ -1,5 +1,5 @@
 ##MotionNightlight
-======
+------
 An Arduino-based motion-activated nightlight
 
 Going to the bathroom at 2am doesn't have to be a retina-searing affair. With lighting in the red-end of the visible spectrum, night-vision is preserved (for the trip back to bed), and sleep-cycle is less disturbed (I consistently fall back to sleep within five minutes). This is an Arduino-based solution that uses a passive infrared sensor to detect motion and turn on a bank of LEDs to light the bathroom for a period of time. The "lights on" period is extended while the lights are on and additional motion is detected. The lights will go out if no motion is detected after an adjustible (in code) period.
