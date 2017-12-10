@@ -8,13 +8,18 @@ The 1.0.0 version of this project utilizes an [Adafruit DC Boarduino](https://ww
 
 A Fritzing diagram of the circuit is included. There isn't a Fritzing part for the DC Boarduino, so I used the USB Boarduino (same layout) instead. Of note there is that Collector on the TP120 *must* be connected to a source with sufficient current to light the LEDs connected to the Emitter. For this version, I'm using 25 [bright red LEDs](https://www.adafruit.com/products/297) which are rated for 20mA of current draw - 500mA for the LEDs alone. The output of the 7805 regulator is exposed on the DC Boarduino at Vin, providing 1-1.5A, which is sufficient. 
 
-Inspired by [this thread](https://www.reddit.com/r/arduino/comments/3znyer/bathroom_laser_light_when_turning_the_light_on_is/), the next version of MotionNightlight may/will include:
+Inspired by [this thread](https://www.reddit.com/r/arduino/comments/3znyer/bathroom_laser_light_when_turning_the_light_on_is/), v101 now includes:
 
 * Ambient light sensor. Why switch on the LEDs if the room is already lit?
 * Red laser illuminating the toilet bowl. Target acquired!
+
+I might revisit this at some point, but for now, full Arduino/ATMEGA328-based devices are so cheap, I'm not sure if I can be arsed to bother with it:
+
 * Instead of ATmega328, this *should* be possible to construct using an ATtiny85 with minimal code changes.
 
-======
+Also, as discussed in the [reddit thread](https://www.reddit.com/r/arduino/comments/3znyer/bathroom_laser_light_when_turning_the_light_on_is/), it *is* possible to build a device like this with discreet components if one is so inclined. One of the posts details using a diode, a capacitor, and a high-ohm resistor/potentiometer to do this. If one is so inclined.
 
-As discussed in the [reddit thread](https://www.reddit.com/r/arduino/comments/3znyer/bathroom_laser_light_when_turning_the_light_on_is/), it *is* possible to build a device like this with discreet components if one is so inclined. One of the posts details using a diode, a capacitor, and a high-ohm resistor/potentiometer to do this. If one is so inclined.
+Finally, just for fun...
+
+![alt text](https://i.imgur.com/hyUuhFa.jpg "target acquired!")
 
